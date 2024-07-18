@@ -29,7 +29,7 @@ export default function PurchaseSection({
   itemId, // The id of the item
   sellerUsername, // The username of the seller of the item
   available, // The quantity of the item available for purchase
-  listed, // Whether the item is listed (1) or not (0). 
+  listed, // Whether the item is listed (1) or not (0).
   itemTitle, // The title of the item
   itemImage, // The image of the item
   itemPrice, // The price of the item
@@ -67,7 +67,6 @@ export default function PurchaseSection({
             userStatus state variable. Finally, check if the user is watching the item to update the 
             isWatched state variable.
     */
-    
   }, []);
 
   /* 
@@ -78,32 +77,25 @@ export default function PurchaseSection({
       TODO: Add a check to see if the user is logged in and is the buyer of the item
       If not, return
     */
-
     /*
       TODO: Set loading to true
     */
-
     /*
       TODO: Parse the quantity state variable to ensure that it is a valid integer
       If not, set error to "Invalid quantity!", set loading to false, and return
     */
-
     /*
       TODO: Call the purchaseItem function
     */
-
     /*
       TODO: Set success to "Purchase successful!"
     */
-    
     /*
       TODO: Set loading to false
     */
-
     /*
       TODO: Redirect the user to the purchases tab of their profile page
     */
-
   };
 
   /* 
@@ -114,30 +106,24 @@ export default function PurchaseSection({
       TODO: Add a check to see if the user is logged in and is the buyer of the item
       If not, return
     */
-
     /*
       TODO: Retrieve the cart from local storage and parse it into a CartItem array
     */
-
     /*
       TODO: Parse the quantity state variable to ensure that it is a valid integer
       If not, set error to "Invalid quantity!", set loading to false, and return
     */
-
     /*
       TODO: If the item is already in the cart, increment the quantity of the item in the cart, 
       otherwise, add the item to the cart
     */
-
     /*
       TODO: Stringify the cart and set it in local storage
     */
-
     /*
       TODO: Dispatches an event to update the cart icon in the navbar and displays a toast
       HINT: Dispatch an event with the name "cartUpdated"
     */
-
   };
 
   /* 
@@ -148,27 +134,21 @@ export default function PurchaseSection({
       TODO: Add a check to see if the user is logged in and is the seller of the item
       If not, return
   */
-
     /*
       TODO: Set loading to true
     */
-
     /*
       TODO: Call the unlistItem function
     */
-
     /*
       TODO: Set success to "Listing removed!"
     */
-
     /*
       TODO: Set loading to false
     */
-
     /*
       TODO: Redirect the user to their profile page
     */
-
   };
 
   /*
@@ -315,4 +295,5 @@ export default function PurchaseSection({
                 </Card>
                 ``` 
   */
+  return <div>{}</div>;
 }

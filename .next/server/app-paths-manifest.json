@@ -1,0 +1,23 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/items/[id]/route": "app/api/items/[id]/route.js",
+  "/api/purchases/count/route": "app/api/purchases/count/route.js",
+  "/api/purchases/route": "app/api/purchases/route.js",
+  "/api/purchases/[purchaseId]/route": "app/api/purchases/[purchaseId]/route.js",
+  "/api/ratings/[ratingId]/route": "app/api/ratings/[ratingId]/route.js",
+  "/api/ratings/route": "app/api/ratings/route.js",
+  "/api/ratings/stars/route": "app/api/ratings/stars/route.js",
+  "/api/users/[address]/balance/route": "app/api/users/[address]/balance/route.js",
+  "/api/users/[address]/route": "app/api/users/[address]/route.js",
+  "/api/users/route": "app/api/users/route.js",
+  "/cart/page": "app/cart/page.js",
+  "/api/watchlist/route": "app/api/watchlist/route.js",
+  "/api/items/route": "app/api/items/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/item/[username]/[itemId]/page": "app/item/[username]/[itemId]/page.js",
+  "/page": "app/page.js",
+  "/seller/[sellerId]/page": "app/seller/[sellerId]/page.js",
+  "/rate/[username]/[itemId]/page": "app/rate/[username]/[itemId]/page.js",
+  "/rate/[username]/page": "app/rate/[username]/page.js"
+}
